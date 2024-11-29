@@ -4,19 +4,23 @@
   "main": "app/index.js",
   "type": "module",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js",
+    "build": "npm ci"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "firebase-admin": "^12.6.0",
-    "googleapis": "^144.0.0",
-    "openai": "^4.67.3",
-    "venom-bot": "^5.1.0"
+    "body-parser": "1.20.3",
+    "cors": "2.8.5", 
+    "dotenv": "16.4.5",
+    "express": "4.21.1",
+    "firebase-admin": "12.6.0",
+    "googleapis": "144.0.0",
+    "openai": "4.67.3",
+    "venom-bot": "5.1.0"
+  },
+  "engines": {
+    "node": "18.12.0"
   }
 }
