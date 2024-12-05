@@ -23,6 +23,7 @@
     "googleapis": "^144.0.0",
     "ioredis": "^5.4.1",
     "openai": "^4.67.3",
+    "puppeteer": "^23.10.1",
     "queue-promise": "^2.2.1",
     "venom-bot": "github:venomlib/venom"
   }
